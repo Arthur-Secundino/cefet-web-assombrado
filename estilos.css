@@ -145,6 +145,14 @@ a:active {
   display: inline-block;
 }
 
+.novidade::before {
+  background-color: green;
+  color: white;
+  content: "Novidade!";
+  padding: 5px;
+  border-radius: 5px;
+}
+
 
 
 
@@ -177,6 +185,15 @@ a:active {
   background-color: orange;
   color: white;
   text-shadow: 1px 1px black;
+  position: relative;
+}
+
+.tag-1:active,
+.tag-2:active,
+.tag-3:active {
+  bottom: 2px;
+  right: 2px;
+  cursor: pointer;
 }
 
 .tag-2 {
