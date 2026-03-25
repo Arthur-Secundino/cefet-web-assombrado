@@ -201,6 +201,7 @@ a:active {
   color: white;
   text-shadow: 1px 1px black;
   position: relative;
+  cursor: pointer
 }
 
 .tag-1:active,
@@ -208,7 +209,6 @@ a:active {
 .tag-3:active {
   bottom: 2px;
   right: 2px;
-  cursor: pointer;
 }
 
 .tag-2 {
