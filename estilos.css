@@ -95,6 +95,10 @@ a:active {
   margin-bottom: 1em;
 }
 
+.post {
+  position: relative;
+}
+
 #posts-principais .post {
   width: 40%;
   max-width: 400px;
@@ -105,6 +109,16 @@ a:active {
 
 #posts-principais .post .titulo {
   text-shadow: 1px 1px black;
+  position: absolute;
+  top: 8px;
+  left: 6px;
+  opacity: 0;
+  transition: all 200ms ease;
+}
+
+#posts-principais .post:hover .titulo {
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 #posts-principais .post img {
@@ -114,7 +128,6 @@ a:active {
   border: 6px solid white;
   margin-bottom: .5em;
 }
-
 
 
 
