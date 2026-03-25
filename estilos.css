@@ -302,3 +302,33 @@ a:active {
   border-color: currentColor;
   box-shadow: none;
 }
+
+.boo {
+  position: absolute;
+  opacity: 0.1;
+  width: 40px;
+}
+
+.boo1 {
+  left: 10%;
+}
+
+.boo2 {
+  left: 50%;
+}
+
+.boo3 {
+  left: 90%;
+}
+
+.boo1:hover {
+  opacity: 1;
+}
+
+.boo2:hover {
+  opacity: 1;
+}
+
+.boo3:hover {
+  opacity: 1;
+}
